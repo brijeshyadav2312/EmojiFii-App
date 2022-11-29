@@ -1,0 +1,89 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(233, 244, 255);
+  font-family: sans-serif;
+  color: rgb(37, 37, 37);
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 2rem;
+  background-color: rgb(0, 68, 162);
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+input{
+  width: 40%;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.1rem;
+  outline: none;
+  height: 2rem;
+  margin-top: 1rem;
+  border: 2px solid rgb(222, 222, 222);
+  border-radius: 10px;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: space-evenly;
+}
+.emojiContainer{
+  width: 160px;
+  height: 120px;
+  text-align: center;
+  background-color: rgb(167, 237, 255);
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+.emojiContainer:hover{
+  cursor: pointer;
+  background-color: rgb(129, 214, 254);
+  box-shadow: 3px 3px 5px rgb(200, 200, 200);
+}
+.emojiContainer p:first-child{
+  font-size: 3rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.nav span:first-child{
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+.copyEmoji{
+  background-color: rgb(45, 182, 0);
+  width: 160px;
+  height: 120px;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+.copyEmoji:hover{
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgb(200, 200, 200);
+}
+.sucess{
+  width: 60px;
+}
